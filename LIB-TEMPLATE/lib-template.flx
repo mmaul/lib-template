@@ -1,0 +1,6 @@
+
+class LibTemplate[T] {
+
+  fun identity[T] (v:T) => v;
+
+}

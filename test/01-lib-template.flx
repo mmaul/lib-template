@@ -1,0 +1,6 @@
+include "PKGTOOL/pkgtool";
+include "LIB-TEMPLATE/lib-template";
+open PkgTool;
+open LibTemplate;
+
+assert_true(identity[string]("Bourne") == "Bourne","Testing identity");
