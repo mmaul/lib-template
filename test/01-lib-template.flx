@@ -1,4 +1,4 @@
-include "PKGTOOL/pkgtool";
+include "std/felix/pkgtool";
 include "LIB-TEMPLATE/lib-template";
 open PkgTool;
 open LibTemplate;
